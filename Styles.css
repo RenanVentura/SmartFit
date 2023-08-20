@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    background-color: #ffc700 ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    flex-direction: row;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 23px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+    color: #ffc700;
+}
+
+#logo {
+    margin-left: 10px;
+    width: 130px;
+    height: auto;
+    background-color: black;
+}
+
+#corCabeca{
+    background-color: black;
+}
+
+#banner{
+    background-image: url('https://cdn.croct.io/assets/app/f856c15b-fb82-47e1-a8a7-0402a24cab04/images/2023-01-home-banner-state-sp-verao-desktop.jpg');
+    background-position: 50% 80%;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+#propaganda{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+#linha2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#trailer-content{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 60%;
+}
+
+#sobre{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.descricao{
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #d52b1e;
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 19px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: #a1231a;
+}
+
+.titulo{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 300px;
+    height: 220px;
+    background: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 10px 10px;
+    color: #fff;
+    font: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+.cardprog1{
+    background-image: url('https://smartsite-production.s3.amazonaws.com/images/new_home_br/equipamentos_alto_padrao.jpeg');
+}
+.cardprog2{
+    background-image: url('https://smartsite-production.s3.amazonaws.com/images/new_home_br/salas-exclusivas.jpeg');
+}
+.cardprog3{
+    background-image: url('https://smartsite-production.s3.amazonaws.com/images/new_home_br/areas-musculacao.jpeg');
+}
+
+#bannerapp{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: #f78e48;
+ 
+}
+.contentapp{
+    background-color: #f78e48;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .appimg{
+    margin-top: 50px;
+    height: 350px;
+    width: 30% ;
+    background-color: #f78e48; 
+}
+
+.tituloapp{ 
+    
+    margin-top: 70px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color:#f78e48;  
+}
+h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #f78e48;
+    color: #fff;
+}
+.app{
+    margin-top: 90px;
+    
+}
+.listaapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff;
+    background-color: #f78e48;
+    font-size: 15px;
+}
+
+.spanapp{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    background-color:#f78e48;
+
+    font-size: 13px;
+}
+
+.QrCode{
+    margin-top: 50px;
+    background-color: #f78e48;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   
+}
+
+.qrconfig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f78e48;
+    justify-content: center;
+}
+
+.spanqr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    background-color: #f78e48;
+    font-size: 13px;
+}
+
+.qrimg{
+    margin-top: 30px;
+    background-color: #f78e48;
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    background-color: black;
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
