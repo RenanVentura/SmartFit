@@ -1,2 +1,2 @@
 # SmartFit
-Utilizando HTML e CSS foi criado um site da famosa academia SmartFir
+Utilizando HTML e CSS foi criado um site da famosa academia SmartFit
